@@ -39,6 +39,6 @@ jobs:
           with open('public/sitemap.xml', 'r') as sitemap:
             pattern = re.compile(r'(?<=<loc>).+?(?=</loc>)')
             result = pattern.findall(sitemap.read())
-            req = requests.post('http://data.zz.baidu.com/urls?site=https://ouuan.github.io&token=${{ secrets.BAIDU_PUSH_TOKEN }}', '\n'.join(result))
+            req = requests.post('http://data.zz.baidu.com/urls?site=https://TosakaUCW.github.io&token=${{ secrets.BAIDU_PUSH_TOKEN }}', '\n'.join(result))
             print(req.text)
           END

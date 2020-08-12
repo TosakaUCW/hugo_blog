@@ -1,8 +1,8 @@
 newContentEditor = "code"
-baseURL = "https://ouuan.github.io"
+baseURL = "https://TosakaUCW.github.io"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "ouuan的博客"
+title = "TosakaUCW的博客"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -21,7 +21,7 @@ googleAnalytics = "UA-157787819-1"      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
-  name = "ouuan"
+  name = "TosakaUCW"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -71,12 +71,12 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   since = "2018"            # Site creation time          # 站点建立时间
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
-  gitRepo = "https://github.com/ouuan/hugo-blog"
+  gitRepo = "https://github.com/TosakaUCW/hugo-blog"
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
   # logoTitle = "Even"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["ouuan", "blog", "OI"]
-  description = "ouuan的博客"
+  keywords = ["TosakaUCW", "blog", "OI"]
+  description = "TosakaUCW的博客"
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archivePaginate = 25
@@ -88,7 +88,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   dateFormatToUse = "2006-01-02"
 
   # show word count and read time ?                       # 是否显示字数统计与阅读时间
-  moreMeta = false
+  moreMeta = true
 
   # Syntax highlighting by highlight.js
   highlightInClient = true
@@ -152,7 +152,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     clientSecret = ""       # Your client secret
 
   [params.utterances]       # https://utteranc.es/
-    owner = "ouuan"              # Your GitHub ID
+    owner = "TosakaUCW"              # Your GitHub ID
     repo = "blog-comments"               # The repo to store comments
 
   [params.gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
@@ -170,7 +170,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     appKey = '你的appKey'
     notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
     verify = false # Verification code
-    avatar = 'mm' 
+    avatar = 'mm'
     placeholder = '说点什么吧...'
     visitor = false
 
@@ -194,9 +194,8 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.social]                                         # 社交链接
-    a-email = "mailto:ouuansteve@gmail.com"
-    b-github = "https://github.com/ouuan"
-    c-bilibili = "https://space.bilibili.com/11067182"
+    a-email = "mailto:tosakaucw0@gmail.com"
+    b-github = "https://github.com/TosakaUCW"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

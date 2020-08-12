@@ -30,7 +30,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          external_repository: ouuan/ouuan.github.io
+          external_repository: TosakaUCW/TosakaUCW.github.io
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
           publish_branch: master
