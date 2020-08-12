@@ -14,7 +14,7 @@ date = 2018-12-05T22:53:11+08:00
 - [sxYuGao](https://sxyugao.top/)
 - [Robin](https://mr-robin.top/)
 - [memset0](https://memset0.cn/)
-- [markjuruo](https://markjuruo.github.io/)
+- [markjuruo](https://markjuruo.gitee.io/)
 
 ## 一些网站
 
