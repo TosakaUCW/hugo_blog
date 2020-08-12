@@ -5,6 +5,9 @@ date = 2018-12-05T22:53:11+08:00
 
 ## 友情链接
 
+- [Hamakaze](http://blog.hamakaze.top/)
+- [Joyemang33](https://www.cnblogs.com/mangoyang/)
+- [REM_001](http://blog.leanote.com/rem_001)
 - [fAKe](https://arthas.org/)
 - [ganmouren](https://ganmouren.github.io/)
 - [scy](https://shencys.github.io/)
