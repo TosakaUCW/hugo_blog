@@ -1,5 +1,5 @@
 +++
-title = 'FHQ_Treap'
+title = 'FHQ Treap'
 date = 2020-08-13T03:06:23+08:00
 categories = ['算法']
 tags = ['平衡树']
