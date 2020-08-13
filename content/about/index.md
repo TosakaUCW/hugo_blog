@@ -5,23 +5,32 @@ date = 2018-12-05T13:40:21+08:00
 
 ---
 
+TosakaUCW
+
 ZJ 高一现役 OIer
 
-曾就读于杭州江南实验学校，现就读于杭州学军中学紫金港校区
+小学和初中毕业于杭州江南实验学校
+
+高中现就读于杭州学军中学紫金港校区
+
+
 
 ---
 
-OJ 账号：
-
-- [CF](https://codeforces.com/profile/TosakaUCW)
-- [洛谷](https://www.luogu.com.cn/user/87319)
+- [Gmail : TosakaUCW](mailto:tosakaucw0@gmail.com)
+- [Github : TosakaUCW](https://github.com/TosakaUCW)
+- [Codeforces : TosakaUCW](https://codeforces.com/profile/TosakaUCW)
+- [洛谷 : TosakaUCW](https://www.luogu.com.cn/user/87319)
+- QQ : 2736275924
 
 ---
 
-Contribution(s):
+Contribution and Rating:
 
-[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/TosakaUCW&label=github&query=$.years.0.total&color=success&suffix=@this%20year)](https://github.com/TosakaUCW)
-[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=TosakaUCW&label=codeforces&query=$.result.0.contribution&color=success)](https://codeforces.com/profile/TosakaUCW)
+[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/TosakaUCW&label=github&query=$.years.0.total&color=success&style=for-the-badge&suffix=@this%20year)](https://github.com/TosakaUCW)
+[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=TosakaUCW&label=codeforces&query=$.result.0.contribution&color=success&style=for-the-badge)](https://codeforces.com/profile/TosakaUCW)
+
+[![CF ratings](https://cfrating.ihcr.top/?user=TosakaUCW)](https://codeforces.com/profile/TosakaUCW)
 
 ---
 
