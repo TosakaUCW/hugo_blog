@@ -5,7 +5,7 @@ date = 2018-12-05T13:40:21+08:00
 
 ---
 
-TosakaUCW
+### Hi, TosakaUCW there! 👋
 
 ZJ 高一现役 OIer
 
@@ -13,7 +13,23 @@ ZJ 高一现役 OIer
 
 高中现就读于杭州学军中学紫金港校区
 
+-   🎯 Making my dream come true
+-   ⚒️ C / C++ / Python / Web
+-   ✏️ Chinese senior high school student
+-   🌱 OIer, fighting for NOIp
+-   👨 Pronouns: he / him
+-   💬 Ask me about: Anything
+-   📫 How to reach me: tosakaucw0@gmai.com
 
+<div align=center>
+
+[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/TosakaUCW&label=github&query=$.years.0.total&color=success&style=for-the-badge&suffix=@this%20year)](https://github.com/TosakaUCW)
+
+[![CF ratings](https://cfrating.ihcr.top/?user=TosakaUCW)](https://codeforces.com/profile/TosakaUCW)
+
+![TosakaUCW's github stats](https://github-readme-stats.vercel.app/api?username=TosakaUCW&show_icons=true&theme=tokyonight)
+
+</div>
 
 ---
 
@@ -22,15 +38,6 @@ ZJ 高一现役 OIer
 - [Codeforces : TosakaUCW](https://codeforces.com/profile/TosakaUCW)
 - [洛谷 : TosakaUCW](https://www.luogu.com.cn/user/87319)
 - QQ : 2736275924
-
----
-
-Contribution and Rating:
-
-[![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/TosakaUCW&label=github&query=$.years.0.total&color=success&style=for-the-badge&suffix=@this%20year)](https://github.com/TosakaUCW)
-[![CF contribution](https://img.shields.io/badge/dynamic/json?url=https://codeforces.com/api/user.info?handles=TosakaUCW&label=codeforces&query=$.result.0.contribution&color=success&style=for-the-badge)](https://codeforces.com/profile/TosakaUCW)
-
-[![CF ratings](https://cfrating.ihcr.top/?user=TosakaUCW)](https://codeforces.com/profile/TosakaUCW)
 
 ---
 
