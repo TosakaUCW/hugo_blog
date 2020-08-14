@@ -13,7 +13,7 @@ ZJ 高一现役 OIer
 
 高中现就读于杭州学军中学紫金港校区
 
--   🎯 Making my dream come true
+-   🎯 Making my dream alive
 -   ⚒️ C / C++ / Python / Web
 -   ✏️ Chinese senior high school student
 -   🌱 OIer, fighting for NOIp
