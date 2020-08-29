@@ -1,8 +1,7 @@
 +++
 title = 'Codeforces Round #665 (Div. 2) 划水记录'
 date = 2020-08-29T08:19:42+08:00
-categories = ['题解']
-tags = ['', '']
+categories = ['比赛记录']
 +++
 
 C D 乱杀，A B 卡一万年，果然人傻不适合打 CF
