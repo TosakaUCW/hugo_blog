@@ -6,7 +6,7 @@ categories = ['比赛记录']
 
 暑假最后一场 CF，我将直冲 newbie，更下一层楼
 
-C D 乱杀，A B 卡一万年，果然人傻不适合打 CF
+弱智题被卡一万年，果然人傻不适合打 CF
 
 <!--more-->
 
@@ -210,9 +210,7 @@ $k$ 有可能很大，输入数据中包含了 $m$ 个质数 $p_i$，那么 $k$ 
 
 ## 简要做法
 
-贪心水题
-
-统计每条边的贡献暴力计算即可
+贪心统计每条边的贡献暴力计算即可
 
 ## 参考代码
 
@@ -278,6 +276,125 @@ signed main()
         for (ll i = n - 1; i >= 1; i--)
             ans = (ans + p[i] % P * tot[i + 1] % P) % P;
         printf("%lld\n", (ans + P) % P);
+    }
+    return 0;
+}
+```
+
+# F
+
+{{% question %}}
+
+给您一个长度为 $2^n$ 的数组 $a$，您现在需要处理 $q$ 个询问，每个询问是以下 4 种类型之一：
+
+1. $Replace(x, k)$ 把 $a_x$ 修改为 $k$；
+2. $Reverse(k)$ 从左到右划分为若干个长度为 $2^k$ 的区间，将每个区间翻转
+3. $Swap(k)$ 从左到右划分为若干个长度为 $2^k$ 的区间，相邻两个区间交换位置
+4. $Sum(l,r)$ 求 $\sum_{i=l}^{r}a_i$
+
+{{% /question %}}
+
+## 简要做法
+
+题面这么多 2，还有区间操作，想了想线段树
+
+操作 1 和 4 是很好做的
+
+对于操作 2 和 3，把线段树建出来手玩下样例
+
+会发现就是改变线段树第 k 层的所有节点
+
+定义 $reverse_i$ 表示深度为 $i$ 的那层左右儿子是否互换
+
+操作 3 就是取反 $reverse_{k+1}$
+
+操作 4 就是取反 $reverse_{i}$，其中 $i \in [0,k]$
+
+## 参考代码
+
+```cpp
+#include <stdio.h>
+
+typedef long long ll;
+
+const ll N = 18 + 2;
+const ll M = 1 << N;
+
+ll n, q;
+ll sum[M << 2];
+bool rev[N];
+
+ll read()
+{
+    ll x = 0, f = 1;
+    char ch = getchar();
+    while ('0' > ch or ch > '9')
+        f = ch == '-' ? -1 : 1, ch = getchar();
+    while ('0' <= ch and ch <= '9')
+        x = x * 10 + ch - 48, ch = getchar();
+    return x * f;
+}
+
+#define ls (p << 1)
+#define rs (p << 1 | 1)
+#define lson (p << 1 | rev[depth])
+#define rson (p << 1 | rev[depth] ^ 1)
+
+void build(ll p, ll l, ll r)
+{
+    if (l == r)
+    {
+        sum[p] = read();
+        return;
+    }
+    ll mid = l + r >> 1;
+    build(ls, l, mid), build(rs, mid + 1, r);
+    sum[p] = sum[ls] + sum[rs];
+}
+
+void modify(ll p, ll l, ll r, ll depth, ll k, ll val)
+{
+    if (l == r)
+    {
+        sum[p] = val;
+        return;
+    }
+    ll mid = l + r >> 1;
+    if (k <= mid)
+        modify(lson, l, mid, depth - 1, k, val);
+    else
+        modify(rson, mid + 1, r, depth - 1, k, val);
+    sum[p] = sum[ls] + sum[rs];
+}
+
+ll query(ll p, ll l, ll r, ll depth, ll x, ll y)
+{
+    if (x <= l and r <= y)
+        return sum[p];
+    ll mid = l + r >> 1, res = 0;
+    if (x <= mid)
+        res += query(lson, l, mid, depth - 1, x, y);
+    if (mid + 1 <= y)
+        res += query(rson, mid + 1, r, depth - 1, x, y);
+    return res;
+}
+
+signed main()
+{
+    n = read(), q = read();
+    build(1, 1, 1LL << n);
+    for (ll opt, x, y; q--;)
+    {
+        opt = read();
+        if (opt == 1)
+            x = read(), y = read(), modify(1, 1, 1LL << n, n, x, y);
+        else if (opt == 2)
+            for (x = read(); ~x; x--)
+                rev[x] ^= 1;
+        else if (opt == 3)
+            x = read(), rev[x + 1] ^= 1;
+        else
+            x = read(), y = read(), printf("%lld\n", query(1, 1, 1LL << n, n, x, y));
     }
     return 0;
 }
