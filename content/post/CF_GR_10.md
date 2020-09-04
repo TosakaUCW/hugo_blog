@@ -1,5 +1,5 @@
 +++
-title = 'Codeforces Round #665 (Div. 2) 划水记录'
+title = 'Codeforces Global Round 10 划水记录'
 date = 2020-08-28T08:19:42+08:00
 categories = ['比赛记录']
 +++
