@@ -41,7 +41,7 @@ ZJ 高一现役 OIer
 
 ---
 
-在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 以获得更好的阅读体验。
+在本博客，推荐安装 [思源宋体](/fonts/SourceHanSerifSC-Regular.otf) 和 等宽的代码字体及英文字体[Fira Code](/fonts/FiraCode_1.204.rar) 以获得更好的阅读体验。
 
 本博客中还有少量含有中文的 LaTeX 公式，所以推荐安装 MathJax 的 Unicode 字体 [Arial Unicode MS](/fonts/arial-unicode-ms_2.ttf) 。
 
