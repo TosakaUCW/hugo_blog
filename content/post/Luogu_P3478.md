@@ -2,7 +2,7 @@
 title = 'Luogu P3478 [POI2008]STA-Station（换根 DP）'
 date = 2020-08-13T03:30:05+08:00
 categories = ['题解']
-tags = ['换根 DP']
+tags = ['换根DP', 'DP']
 +++
 
 [题目链接](https://www.luogu.com.cn/problem/P3478)

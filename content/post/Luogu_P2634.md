@@ -1,7 +1,7 @@
 +++
 title = 'Luogu P2634 [国家集训队]聪聪可可（树形 DP）'
 categories = ['题解']
-tags = ['树形 DP']
+tags = ['树形DP', 'DP']
 date = 2020-08-13T03:25:54+08:00
 description = ""
 aliases = ["/post/Luogu_P2634", "/Luogu_P2634"]

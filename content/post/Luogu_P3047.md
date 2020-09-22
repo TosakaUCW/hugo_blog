@@ -2,7 +2,7 @@
 title = 'Luogu P3047 [USACO12FEB]Nearby Cows G（换根 DP）'
 date = 2020-08-13T03:34:25+08:00
 categories = ['题解']
-tags = ['换根 DP']
+tags = ['换根DP', 'DP']
 +++
 
 [题目链接](https://www.luogu.com.cn/problem/P3047)
