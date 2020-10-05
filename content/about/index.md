@@ -25,8 +25,6 @@ ZJ 高一现役 OIer
 
 [![GitHub contributions](https://img.shields.io/badge/dynamic/json?url=https://github-contributions.now.sh/api/v1/TosakaUCW&label=github&query=$.years.0.total&color=success&style=for-the-badge&suffix=@this%20year)](https://github.com/TosakaUCW)
 
-[![CF ratings](https://cfrating.ihcr.top/?user=TosakaUCW)](https://codeforces.com/profile/TosakaUCW)
-
 ![TosakaUCW's github stats](https://github-readme-stats.vercel.app/api?username=TosakaUCW&show_icons=true&theme=tokyonight)
 
 </div>
