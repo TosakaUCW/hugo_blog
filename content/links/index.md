@@ -5,16 +5,29 @@ date = 2018-12-05T22:53:11+08:00
 
 ## 友情链接
 
+学长
 - [Hamakaze](http://blog.hamakaze.top/)
 - [Joyemang33](https://www.cnblogs.com/mangoyang/)
+- [Dilemma](https://dilemma-cmz.github.io/)
+- [DennyQi](https://www.cnblogs.com/qixingzhi/)
+- [Isonan](http://isonan.cn/)
+- [Claris](https://www.cnblogs.com/clrs97/)
+- [DFSlover](https://www.cnblogs.com/JinLeiBo/)
+- [LinZhengMin](https://www.cnblogs.com/linzhengmin)
+- [Kananix](https://www.cnblogs.com/DreamlessDreams/)
+
+同学
 - [REM_001](http://blog.leanote.com/rem_001/)
 - [fAKe](https://arthas.org/)
 - [ganmouren](https://ganmouren.github.io/)
 - [scy](https://shencys.github.io/)
+- [CZY](https://czy-czy.github.io/)
+- [markjuruo](https://markjuruo.gitee.io/)
+
+网友
 - [sxYuGao](https://sxyugao.top/)
 - [Robin](https://mr-robin.top/)
 - [memset0](https://memset0.cn/)
-- [markjuruo](https://markjuruo.gitee.io/)
 
 ## 一些网站
 
