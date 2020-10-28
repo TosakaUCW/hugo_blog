@@ -5,21 +5,13 @@ date = 2018-12-05T13:40:21+08:00
 
 ---
 
-### Hi, TosakaUCW there! 👋
-
 ZJ 高一现役 OIer
 
 小学和初中毕业于杭州江南实验学校
 
 高中现就读于杭州学军中学紫金港校区
 
--   🎯 Making my dream alive
--   ⚒️ C / C++ / Python / Web
--   ✏️ Chinese senior high school student
--   🌱 OIer, fighting for NOIp
--   👨 Pronouns: he / him
--   💬 Ask me about: Anything
--   📫 How to reach me: tosakaucw0@gmai.com
+联系方式在下面，欢迎来找我玩 _(:з」∠)_
 
 <div align=center>
 
