@@ -1,8 +1,10 @@
 +++
 title = 'Codeforces Round #665 (Div. 2) 划水记录'
 date = 2020-08-29T08:19:42+08:00
-categories = ['比赛记录']
+categories = ['练习记录']
 +++
+
+[题目链接](https://codeforces.com/contest/1401)
 
 暑假最后一场 CF，我将直冲 newbie，更下一层楼
 

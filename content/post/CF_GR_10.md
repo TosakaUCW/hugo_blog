@@ -1,8 +1,10 @@
 +++
 title = 'Codeforces Global Round 10 划水记录'
 date = 2020-08-28T08:19:42+08:00
-categories = ['比赛记录']
+categories = ['练习记录']
 +++
+
+[题目链接](https://codeforces.com/contest/1392)
 
 **草，weak pretest，我日他大坝**
 

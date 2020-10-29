@@ -1,8 +1,10 @@
 +++
 title = 'Codeforces Round #679 (Div. 2) 划水记录'
 date = 2020-10-26T07:59:42+08:00
-categories = ['比赛记录']
+categories = ['练习记录']
 +++
+
+[题目链接](https://codeforces.com/contest/1435)
 
 [18:44] scy：“晚上七点 cf 打吗”
 
