@@ -2,7 +2,7 @@
 baseURL = "https://TosakaUCw.github.io"
 languageCode = "en"
 defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
-title = "TosakaUCW的博客"
+title = "TosakaUCW"
 preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
@@ -186,7 +186,7 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
     enable = true
     siteUV = true
     sitePV = true
-    pagePV = true
+    pagePV = false
 
   [params.reward]                                         # 文章打赏
     enable = false
