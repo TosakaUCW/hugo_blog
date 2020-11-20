@@ -11,13 +11,21 @@ tags = ['Hash']
 
 ## BKDR Hash
 
-\begin{aligned}
-hash(l,r) &= \sum_{i=l}^{r} str(i) \times base^{r-l} \\
-&=\sum_{i=1}^{r}str(i)\times base^{r-i}-\sum_{i=1}^{l-1}str(i)\times base^{l-1-i} \times base^{r-l+1} \\
-&=hash(1,r)-hash(1,l-1)\times base^{r-l+1}
-\end{aligned}
+### 子串 hash
+
+$hash(l,r) = \sum_{i=l}^{r}{str_i} base^{r-i}$
+
+$hash(l,r) = (\sum_{i=1}^{r}{str_i} base^{r-i}) - (\sum_{i=1}^{i-1}{str_i} base^{l-1-i}) \times base^{r-l+1}$
+
+$hash(l,r) = hash(1,r) - hash(1,l-1) \times base^{r-l+1}$
 
 $O(n)$ 维护 $base^n$ 次方和 hash 前缀和即可 $O(1)$ 查询
+
+### 子串拼接
+
+将 $[l1,r1]$ 和 $[l2,r2]$ 拼接在一起后的 $hash(l,r)$
+
+$hash(l,r)=hash(l_1,r_1) \times base^{r_2-l_2+1}  + hash(l_2,r_2)$
 
 注意根据 BKDR hash 的算法进行变形，比如 O(1) 求子串拼接 hash ，删除字符 hash 等
 
