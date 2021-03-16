@@ -1,11 +1,11 @@
 +++
-title = 'Luogu P2812 [JSOI2011]分特产(二项式反演，DP）'
+title = 'Luogu P5505 [JSOI2011]分特产(二项式反演，DP）'
 date = 2021-03-15T20:39:45+08:00
 categories = ['题解']
 tags = ['二项式反演', 'DP']
 +++
 
-[题目链接](https://www.luogu.com.cn/problem/P2812)
+[题目链接](https://www.luogu.com.cn/problem/P5505)
 
 {{% question %}}
 
