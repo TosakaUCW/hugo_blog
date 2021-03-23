@@ -1,5 +1,5 @@
 +++
-title = 'Luogu P6478 [NOI Online #2 提高组] 游戏(二项式反演，树形DP）'
+title = 'Luogu P6478 [NOI Online #2 提高组] 游戏（二项式反演，树形DP）'
 date = 2021-03-16T18:19:45+08:00
 categories = ['题解']
 tags = ['二项式反演', 'DP', '树形DP']

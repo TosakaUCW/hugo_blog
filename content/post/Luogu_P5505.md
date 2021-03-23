@@ -1,5 +1,5 @@
 +++
-title = 'Luogu P5505 [JSOI2011]分特产(二项式反演，DP）'
+title = 'Luogu P5505 [JSOI2011]分特产（二项式反演，DP）'
 date = 2021-03-15T20:39:45+08:00
 categories = ['题解']
 tags = ['二项式反演', 'DP']
