@@ -21,7 +21,7 @@ Yang Zhe《SPOJ375 QTREE 解法的一些研究》
 
 <!--more-->
 
-#### [BZOJ 1180] OTOCI
+### [BZOJ 1180] OTOCI
 
 迫真板子题，也就图一乐
 
@@ -136,7 +136,7 @@ int main()
 ```
 {{% /fold %}}
 
-#### [Luogu P3690] 【模板】Link Cut Tree （动态树）
+### [Luogu P3690] 【模板】Link Cut Tree （动态树）
 
 真·板子，注意 cut 写法
 
@@ -251,7 +251,7 @@ int main()
 ```
 {{% /fold %}}
 
-#### [Luogu P3203] [HNOI2010]弹飞绵羊
+### [Luogu P3203] [HNOI2010]弹飞绵羊
 
 学习一个精简 LCT
 
@@ -355,7 +355,7 @@ int main()
 ```
 {{% /fold %}}
 
-#### [Luogu P1501] [国家集训队]Tree II
+### [Luogu P1501] [国家集训队]Tree II
 
 和线段树模板题 2 类似，先乘后加，码码码
 
